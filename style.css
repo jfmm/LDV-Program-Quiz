@@ -1,0 +1,95 @@
+.app-title {
+  padding-left: 1.5em;
+}
+
+.quizCard {
+  background: #fbfbfb;
+  width: 100%;
+  max-width: 900px;
+  min-height: 350px;
+  margin: 0 auto;
+  border-radius: 3px;
+  color: #222;
+  height: auto;
+  transition: height ease 0.7s;
+
+  padding-bottom: 1.5em;
+}
+
+#quiz-header {
+  font-size: 1.3em;
+  font-weight: 100;
+  padding: 0.5em;
+  background-color: #E65100;
+  color: #fff;
+  border-radius: 3px 3px 0px 0px;
+  overflow: hidden;
+}
+
+#quiz-header p {
+  display: inline-block;
+}
+
+.header-button {
+  font-size: 0.65em;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 8px;
+  width: 80px;
+  border-radius: 45px;
+  transition: 0.2s ease all;
+  float: right;
+}
+
+.header-button:hover {
+  background: #fff;
+  color: #d35400;
+}
+
+#quiz-question {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.7em;
+  color: #555;
+}
+
+#hint,
+.disclaimer {
+  font-size: 0.6em;
+  font-style: italic;
+  color: #909090;
+}
+
+.disclaimer {
+  margin-top: 3.5em;
+}
+
+#quiz-question ul {
+  font-size: 1.2rem;
+}
+
+#quiz-question ul li {
+  margin-top: 10px;
+}
+
+#quiz-question ul li a {
+  color: #0072c6;
+}
+
+.quiz-button {
+  font-size: 0.5em;
+  background: none;
+  border: 1px solid #E65100;
+  color: #d35400;
+  padding: 15px;
+  width: 200px;
+  border-radius: 3px;
+  transition: 0.2s ease all;
+  margin: 1em;
+}
+
+.quiz-button:hover {
+  background: #E65100;
+  color: #ecf0f1;
+}
