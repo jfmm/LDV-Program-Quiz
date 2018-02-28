@@ -1,5 +1,5 @@
 # LDV-Program-Quiz
-An app that tells you what learning programs you're elegibe for.
+An app that tells you what learning programs you're elegibe for. Check out a live demo [here](https://codepen.io/moralejf/full/KaqmYv/)
 
 ## Dependencies
 1. **`Array.find()` method polyfill**: Because we need to support Internet Explorer, the `find()` method of the Array object prototype must be polyfilled. Right now the polyfill is included within the first part of `quiz-app.js`. If IE support is dropped, the polyfill code may be removed. 
@@ -19,7 +19,7 @@ The `var PROGRAMS = []` array is the data structure used to create, update, and 
 }
 ```
 ### Question data
-he `var questions = []` array is the data structure used to create, update, and delete the different questions that the quiz asks the user. The array contains a set of object literals that employ the following key-value-pair model:
+The `var questions = []` array is the data structure used to create, update, and delete the different questions that the quiz asks the user. The array contains a set of object literals that employ the following key-value-pair model:
 
 ```javascript
 {
